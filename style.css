@@ -15,7 +15,7 @@ footer {background-color: #1B4332;
         text-align: center;
         padding: 20px;
        }
-a {color: white;
+a {color: black;
   text-decoration: none;
   } /* This text decoration property removes the underline in the link*/
 nav ul {list-style: none;  /*this removes the bullets*/ 
