@@ -1,1 +1,48 @@
-
+body {margin: 0;
+     font-family: Arial, sans-serif;
+     }
+header {background-color: #1B4332;
+       color: white;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+       padding: 20px 40px;
+       } /* padding adds space inside the element - header*/ /*logo sits on the left.The navigation sits on the right. */
+main {padding:40px;
+     }
+footer {background-color: #1B4332;
+        color: white;
+        text-align: center;
+        padding: 20px;
+       }
+a {color: white;
+  text-decoration: none;
+  } /* This text decoration property removes the underline in the link*/
+nav ul {list-style: none;  /*this removes the bullets*/ 
+       display: flex; /* this makes the nav element go horizontally insted of vetically*/
+       gap: 25px;
+        margin: 0;
+        padding: 0;
+       }
+nav li {main-right: 20px;
+       }
+nav a {color: white;
+       text-decortion: none;
+       font-weight: bold;
+}
+nav a:hover {color: #95D5B2;
+            }
+.logo-container {display: flex;
+                 align-items: center;
+                 gap: 15px; /* make even spacing instead of aligning to the left side */
+                }
+.logo-container img { width: 150;
+                     max-width: 100%;
+                    height: auto;
+                    }
+.logo-container img:hover {opacity: 0.9;
+  
+}
+.logo-container h1 {margin: 0;
+                    font-size: 2rem;
+                   }
