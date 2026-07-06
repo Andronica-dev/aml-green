@@ -24,10 +24,8 @@ nav ul {list-style: none;  /*this removes the bullets*/
         margin: 0;
         padding: 0;
        }
-nav li {main-right: 20px;
-       }
 nav a {color: white;
-       text-decortion: none;
+       text-decoration: none;
        font-weight: bold;
 }
 nav a:hover {color: #95D5B2;
@@ -36,7 +34,7 @@ nav a:hover {color: #95D5B2;
                  align-items: center;
                  gap: 15px; /* make even spacing instead of aligning to the left side */
                 }
-.logo-container img { width: 150;
+.logo-container img { width: 150px;
                      max-width: 100%;
                     height: auto;
                     }
